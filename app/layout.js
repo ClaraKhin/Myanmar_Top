@@ -27,6 +27,7 @@ export const metadata = {
     title: "Myanmar Top Swiftlet",
     description: "Premium swiftlet farming & bird nest solutions in Myanmar.",
   },
+  generator: "",
 };
 
 export default function RootLayout({ children }) {
@@ -50,3 +51,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
