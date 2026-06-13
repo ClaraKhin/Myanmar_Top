@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 export default function Hero() {
     return (
         <section id="hero" className="relative w-full h-[100svh] max-h-[800px] overflow-hidden">
-            <div className="relative w-full h-[100vh] max-h-[850px]">
+            <div className="relative w-full h-[90vh] max-h-[760px] mt-2">
                 <Image
                     src="/images/Cover.jpg"
                     alt="Swiftlet house at sunrise"
