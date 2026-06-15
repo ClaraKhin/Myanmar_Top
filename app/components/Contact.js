@@ -36,7 +36,7 @@ export default function Contact() {
                     </form>
                     <div className="rounded-xl bg-white/95 dark:bg-white/5 backdrop-blur-md border border-gray-200/30 dark:border-white/10 p-6 shadow-lg">
                         <h3 className="font-semibold text-gray-900 dark:text-white">Visit or Call</h3>
-                        <p className="mt-3text-sm text-gray-700 dark:text-gray-300">
+                        <p className="mt-3 text-sm text-gray-700 dark:text-gray-300">
                             15 (6A) Punn Hlaing Road,
                             <br /> Yangon, Myanmar
                             <br /> <strong className="text-gray-900 dark:text-gray-100">Phone:</strong> +95 9 501 2322
