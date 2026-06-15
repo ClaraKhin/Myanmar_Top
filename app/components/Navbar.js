@@ -18,7 +18,7 @@ export default function Navbar() {
         >
             <nav className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
                 <div className="flex items-center gap-3">
-                    <div className="h-10 w-10 rounded-full bg-[#1F4D3A] flex items-center justify-center text-white font-bold">
+                    <div onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} className="h-10 w-10 rounded-full bg-[#1F4D3A] flex items-center justify-center text-white font-bold cursor-pointer">
                         <img src="/images/Profile.jpg" alt="Myanmar Top Swiftlet Logo" className="h-8 w-8 rounded-full" />
                     </div>
                     <div className="font-semibold text-lg">Myanmar Top Swiftlet Farming</div>
